@@ -24,3 +24,9 @@ Path = {
         return url3.join('/');
     }
 };
+
+Strings = {
+    ClearTypes: function (text) {
+        return text ? text : '';
+    }
+};
